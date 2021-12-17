@@ -1,0 +1,12 @@
+﻿주제	학습목표	상세기준	통과
+훈련, 검증, 테스트 데이터셋 구성	데이터 개수 체크	훈련, 검증, 테스트용 데이터셋이 원하는 수만큼 구성이 되었는지 파악한다.	Pass
+Dataset 및 DataLoader 할당	Dataset: __getitem__	주어진 데이터셋에 맞게 __getitem__ 함수를 구현한다.	Pass
+Dataset 및 DataLoader 할당	Dataset: __len__	주어진 데이터셋에 맞게 __len__ 함수를 구현한다.	Pass
+네트워크 설계	Convolution layer 설계	적절한 입,출력 채널 수와 필터 크기를 가진 convolution layer를 설계한다.	Pass
+네트워크 설계	Batch normalization layer 설계	적절한 feature 수를 가진 batch normalization layer를 설계한다.	Pass
+네트워크 설계	ReLU 설계	ReLU를 activation function으로 사용한다.	Pass
+네트워크 설계	Maxpooling layer 설계	적절한 필터 크기를 가진 maxpooling layer를 설계한다.	Pass
+네트워크 설계	FC layer 설계	적절한 입력, 출력 feature 수를 가진 FC layer를 설계한다.	Pass
+모델 생성 및 Loss function, Optimizer 정의	Cross entropy loss	Cross Entropy Loss function을 정의한다.	Pass
+모델 생성 및 Loss function, Optimizer 정의	Adam	Adam optimizer를 정의한다.	Pass
+transfer learning	레이어 수정	마지막 FC layer의 출력 feature 수를 수정한다.	Pass

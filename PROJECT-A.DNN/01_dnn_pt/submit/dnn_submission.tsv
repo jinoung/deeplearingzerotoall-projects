@@ -1,0 +1,9 @@
+﻿주제	학습목표	상세기준	통과
+Dataset 및 DataLoader 할당	DataLoader: dataset 인자	dataset 인자로 기존에 정의한 train_data 및 test_data 변수를 할당한다.	Pass
+Dataset 및 DataLoader 할당	DataLoader: batch_size 인자	batch_size 인자로 기존에 정의한 batch_size 변수를 할당한다.	Pass
+Dataset 및 DataLoader 할당	DataLoader: shuffle 인자	train_loader의 shuffle 인자는True, test_loader의 shuffle 인자는 False로 할당한다. 	Pass
+네트워크 설계	FC layer 설계	적절한 입력, 출력 feature 수를 가진 FC layer를 설계한다.	Pass
+네트워크 설계	Batch normalization layer 설계	적절한 feature 수를 가진 Batch normalization layer를 설계한다.	Pass
+네트워크 설계	ReLU 설계	ReLU를 Activation function으로 사용한다.	Pass
+Loss functionn 및 Optimizer 정의	Cross entropy loss	Cross entropy loss function을 정의한다.	Pass
+Loss functionn 및 Optimizer 정의	Adam	Adam optimizer를 정의한다.	Pass

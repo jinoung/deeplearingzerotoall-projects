@@ -1,0 +1,8 @@
+﻿주제	학습목표	상세기준	통과
+Dataset 정의 및 DataLoader 할당	Dataset: __getitem__	주어진 데이터셋에 맞게 __getitem__ 함수를 구현한다.	Pass
+네트워크 설계	LSTM 설계	적절한 입력 크기, hidden state 크기, 레이어 갯수를 가진 LSTM을 설계한다.	Pass
+네트워크 설계	FC layer 설계	적절한 입력, 출력 feature 수를 가진 FC layer를 설계한다.	Pass
+네트워크 설계	forward 구현	LSTM의 마지막 타임스텝의 출력값을 FC layer의 입력으로 주어 최종 출력을 반환한다.	Pass
+네트워크 설계	init_hidden 구현	초기 hidden state, cell state를 0으로 채운 텐서로 사용한다.	Pass
+모델 생성 및 Loss function, Optimizer 정의	Mean Squared Error	MSE loss function을 정의한다.	Pass
+모델 생성 및 Loss function, Optimizer 정의	Adam	Adam optimizer를 정의한다.	Pass
